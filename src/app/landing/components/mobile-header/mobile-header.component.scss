@@ -1,0 +1,32 @@
+@import "../../../../assets/colors.scss";
+
+.navbar-brand{
+  width: 132px !important;
+}
+
+.navbar-toggler-icon{
+  width: 24px !important;
+}
+
+.bg-body-tertiary {
+  background-color: unset!important;
+}
+
+.mobile-header{
+  margin-bottom: 20px;
+}
+
+.navbar-toggler{
+  border: unset;
+  padding: 0;
+}
+
+.offcanvas-header{
+  border-bottom: 3px solid $text-light;
+}
+
+.nav-item{
+  border-bottom: 3px solid $text-light;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}

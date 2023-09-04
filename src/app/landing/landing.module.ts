@@ -4,6 +4,7 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { HeaderComponent } from './components/header/header.component';
 import { DescriptionComponent } from './components/description/description.component';
 import { MobileHeaderComponent } from './components/mobile-header/mobile-header.component';
+import { ContactBtnComponent } from './components/contact-btn/contact-btn.component';
 
 
 
@@ -12,7 +13,8 @@ import { MobileHeaderComponent } from './components/mobile-header/mobile-header.
     LandingPageComponent,
     HeaderComponent,
     DescriptionComponent,
-    MobileHeaderComponent
+    MobileHeaderComponent,
+    ContactBtnComponent
   ],
   exports: [
     LandingPageComponent

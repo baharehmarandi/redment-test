@@ -17,18 +17,12 @@
   cursor: pointer;
 }
 
-.contact-btn{
-  width: 6.5rem;
-  height: 3rem;
-  background-color: $bg-dark;
-  border-radius: 6px;
-  border: unset;
-  color: $text-light;
-}
+
 
 .profile-btn{
-  width: 4.5rem;
-  height: 3rem;
+  width: 72px;
+  height: 48px;
   border: 1px solid $bg-dark;
   border-radius: 6px;
+  background-color: unset;
 }
