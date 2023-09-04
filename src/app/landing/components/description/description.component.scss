@@ -1,0 +1,23 @@
+@import "../../../../assets/colors.scss";
+
+.title{
+  font-family: "Playfair Display", serif;
+}
+
+.title>h1{
+  font-size: 64px;
+}
+
+.living{
+  color: $purple;
+  font-size: 64px;
+}
+
+.description-text{
+  max-width: 619px;
+  text-align: center;
+}
+
+.description-text>p{
+  color: $text-dark-50;
+}

@@ -1,6 +1,38 @@
-<header>
-  <img src="assets/images/logo%203.png" alt="redment logo">
-  <div>
-
+<nav class="header container d-flex flex-row justify-content-between align-items-center">
+  <div class="navbar-brand col-2">
+    <img src="assets/images/logo%203.png" alt="redment logo">
   </div>
-</header>
+  <ul class="navbar-nav d-flex flex-row col-8 justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <div class="active-header"></div>
+    </li>
+    <li class="nav-item dropdown mx-4">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Our Products
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Brochures & Technicals</a>
+    </li>
+    <li class="nav-item mx-4">
+      <a class="nav-link" aria-disabled="true">Inspiration</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" aria-disabled="true">About Us</a>
+    </li>
+  </ul>
+  <div class="d-flex col-2 justify-content-between">
+    <button class="contact-btn">Contact</button>
+    <button class="profile-btn">
+      <img src="assets/images/profile.png" alt="profile">
+      <img src="assets/images/arrow-down.png" alt="arrow down">
+    </button>
+  </div>
+</nav>
