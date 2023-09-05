@@ -1,0 +1,39 @@
+@import "../../../../assets/colors.scss";
+
+.banner{
+  padding-top: 128px;
+  width: 100%;
+  min-height: 578px;
+  overflow: hidden;
+}
+
+.CalmWalk{
+  color: $purple;
+}
+
+.banner-description{
+  padding-left: 96px;
+  padding-right: 100px;
+}
+
+.banner-description>p{
+  max-width: 439px;
+}
+
+.banner-description>h1{
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.learn-more{
+  color: $purple;
+  text-decoration: unset;
+  border-bottom: 1px solid $purple;
+}
+
+@media (max-width: 991px){
+  .banner-description{
+    margin-bottom: 32px;
+  }
+}
+

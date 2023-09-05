@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="blog d-flex flex-column justify-content-center ">
+    <div class="header d-flex flex-column justify-content-center">
+      <h4>KNOW MORE ABOUT FLOORING</h4>
+      <h3>Blog & News</h3>
+      <p>Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+    </div>
+    <div class="d-flex flex-column flex-md-row flex-wrap justify-content-between">
+      <ng-container *ngFor="let blogList of blogLists">
+        <div class="card" style="width: 18rem;">
+          <img [src]="blogList.image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>{{blogList.date|date: 'mediumDate'}}</span>
+            <h5 class="card-title my-3">{{blogList.title}}</h5>
+            <a class="read-more icon-link icon-link-hover" href="#">
+              Read more
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="banner d-flex flex-column flex-lg-row align-items-center" [ngClass]="styleClass">
+  <div class="banner-image d-lg-flex d-none">
+    <img [src]="banner?.image" alt="banner image">
+  </div>
+  <div class="banner-description mb-lg-0">
+    <h6 *ngIf="banner?.smallTitle">{{banner?.smallTitle}}</h6>
+    <div [innerHTML]="banner?.title! | safeHtml"></div>
+    <p>{{banner?.paragraph}}</p>
+    <a class="learn-more icon-link icon-link-hover" href="#">
+      {{banner?.linkText}}
+      <i class="bi bi-arrow-right"></i>
+    </a>
+  </div>
+  <div class="banner-image d-flex d-lg-none">
+    <img src="/assets/images/Rectangle%204.png" alt="banner image">
+  </div>
+</div>

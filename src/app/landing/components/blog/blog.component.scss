@@ -1,0 +1,47 @@
+@import "../../../../assets/colors.scss";
+
+.blog{
+  margin-top: 72px;
+}
+.header>h4{
+  color: $bg-dark-400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.header>h3{
+  color: $bg-dark;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header>p{
+  max-width: 514px;
+  font-size: 16px;
+  color: $text-dark-50;
+  text-align: center;
+  display: flex;
+  align-self: center;
+}
+
+.read-more{
+  color: $purple;
+  text-decoration: unset;
+  font-size: 16px;
+}
+
+.card{
+  max-width: 395px!important;
+  width: 100%!important;
+  margin-bottom: 8px;
+}
+
+.card-body>span{
+  color: $bg-dark-400;
+  font-size: 14px;
+}
+
+.card-body>h5{
+  font-size: 20px;
+}

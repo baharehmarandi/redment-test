@@ -1,5 +1,9 @@
 @import "../../../../assets/colors.scss";
 
+.description{
+  margin-top: 96px;
+  margin-bottom: 100px;
+}
 .title{
   font-family: "Playfair Display", serif;
 }
@@ -19,5 +23,22 @@
 }
 
 .description-text>p{
-  color: $text-dark-50;
+  color: $bg-dark-800;
+}
+
+@media (max-width: 991px) {
+  .title{
+    min-width: 325px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .description{
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .description-text {
+    font-size: 16px;
+  }
 }

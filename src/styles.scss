@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../src/assets/colors.scss";
+
+body{
+  font-family: SF Pro Display, serif!Important;
+  background-color: $bg-light-10 !important;
+  background-image: url("../src/assets/images/Vector.png");
+  background-repeat: no-repeat !important;
+  overflow-x: hidden!important;
+}

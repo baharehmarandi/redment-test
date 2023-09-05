@@ -32,7 +32,8 @@
             "styles": [
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/assets/colors.scss"
+              "src/assets/colors.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.scss"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js"

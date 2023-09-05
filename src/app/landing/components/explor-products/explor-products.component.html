@@ -1,0 +1,59 @@
+<div class="explore-products d-flex flex-column">
+  <div class="container">
+    <div class="explore-products-description d-flex flex-row">
+      <div class="header d-flex flex-column col-6">
+        <h6>OUR RANGE</h6>
+        <h1>Explore our products</h1>
+      </div>
+      <div class="d-flex flex-column col-6">
+        <p>“We are a distinguished provider in the industry of high-quality exceptional tiles. Knowing the expectation of the customers and understanding their personalities.</p>
+        <div>
+          <a class="view-products icon-link icon-link-hover" href="#">
+            View all products
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide position-relative">
+      <div class="carousel-inner">
+        <ng-container *ngFor="let product of products">
+          <div [ngClass]="product.id===0 ? 'carousel-item active': 'carousel-item'" >
+            <div class="d-flex flex-row flex-wrap position-relative ">
+              <ng-container *ngFor="let item of product.product">
+                <div class="position-relative col-12 col-md-6">
+                  <img [src]="item.image" class="w-100" [alt]="item.title">
+                  <div class="gradient"></div>
+                  <div class="d-flex flex-column product-carousel-details">
+                    <span *ngIf="item.tag" class="tag">{{item.tag}}</span>
+                    <h1 class="title">{{item.title}}</h1>
+                    <a class="more-details icon-link icon-link-hover text-white" href="#">
+                      More Details
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+      <div class="d-flex flex-row justify-content-between">
+        <div class="explore-products-carousel-indicators carousel-indicators d-flex flex-row">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="explore-products-carousel-indicators-btn active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="explore-products-carousel-indicators-btn" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="explore-products-carousel-indicators-btn" aria-label="Slide 3"></button>
+        </div>
+        <div class="prev-nex-btn d-flex flex-row">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <img src="assets/images/exclusiv.png" alt="exclusiv" class="exclusiv">
+    </div>
+  </div>
+</div>

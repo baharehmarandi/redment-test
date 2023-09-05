@@ -1,6 +1,7 @@
 @import "../../../../assets/colors.scss";
 
 .header{
+  background-color: $bg-light-10 !important;
   margin-top: 24px;
   font-family: "SF Pro Display", serif!important;
 }
@@ -8,7 +9,7 @@
 .active-header{
   width: 32px;
   height: 1.5px;
-  background-color: $text-dark;
+  background-color: $bg-dark-800;
 }
 
 .home-btn, .our-product-btn, .brochures-technicals-btn, .inspiration-btn,.about-us-btn{
