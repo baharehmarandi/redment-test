@@ -1,0 +1,11 @@
+@import "../../../../assets/colors.scss";
+
+.links-btn{
+  width: 100%!important;
+  background-color: unset;
+  border: 1px solid $bg-dark-400;
+}
+
+li::marker{
+  content:"";
+}

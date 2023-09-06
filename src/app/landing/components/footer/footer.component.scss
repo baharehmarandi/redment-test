@@ -1,0 +1,115 @@
+@import "../../../../assets/colors.scss";
+
+.footer-background{
+  background-image: linear-gradient(62deg, #1F2937 16.61%, rgba(31, 41, 55, 0.80) 106.76%), url('/assets/images/Rectangle 12.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 580px;
+}
+
+.footer-description{
+  max-width: 667px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.redment-logo{
+  height: max-content;
+}
+
+@media (max-width: 991px) {
+  .redment-logo{
+    width: 125px;
+  }
+}
+
+.email-box{
+  width: 320px;
+}
+
+.email>.form-control{
+  width: 320px;
+  background-color: unset;
+  border-top: unset;
+  border-right: unset;
+  border-left: unset;
+  border-bottom: 2px solid $bg-dark-400;
+  border-radius: unset;
+}
+
+.email-title{
+  margin-bottom: 32px;
+}
+
+.email-title>span{
+  color: white;
+}
+
+.email-title>svg{
+  margin-right: 16px;
+  color: $bg-light-200;
+}
+
+.email>input::placeholder{
+  color: $bg-dark-400;
+}
+
+.email>i{
+  color: $bg-light-300;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  cursor: pointer;
+}
+
+svg{
+  color: $bg-light-200;
+  margin-right: 16px;
+}
+
+.category>h4{
+  color: white;
+}
+
+.category-list{
+  color: white;
+}
+
+li::marker{
+  content:"";
+}
+
+li{
+  margin-top: 16px;
+}
+
+ul{
+  padding: 0;
+  margin-top: 8px;
+}
+
+.address{
+  max-width: 181px;
+}
+
+.copy-right{
+  width: 100%;
+  height: 80px;
+  background-color: $bg-dark;
+}
+
+.redment{
+  color: $red;
+  font-weight: 500;
+}
+
+.copy-right-text{
+  color: $bg-light-10;
+  font-weight: 500;
+}
+
+.visa, .discover{
+  margin-left: 12px;
+  margin-right: 12px;
+}

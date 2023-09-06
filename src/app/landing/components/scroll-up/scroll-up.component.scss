@@ -1,0 +1,16 @@
+@import "../../../../assets/colors.scss";
+
+.scroll-up{
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: $purple;
+  cursor: pointer;
+}
+
+.scroll-up>svg{
+  color: white;
+}

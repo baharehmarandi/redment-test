@@ -11,6 +11,9 @@ import { ExplorProductsComponent } from './components/explor-products/explor-pro
 import {AppModule} from "../app.module";
 import {SafeHtmlPipe} from "../pipes/safe-html.pipe";
 import { BlogComponent } from './components/blog/blog.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ScrollUpComponent } from './components/scroll-up/scroll-up.component';
+import { MobileFooterComponent } from './components/mobile-footer/mobile-footer.component';
 
 
 
@@ -25,7 +28,10 @@ import { BlogComponent } from './components/blog/blog.component';
     BannerComponent,
     ExplorProductsComponent,
     SafeHtmlPipe,
-    BlogComponent
+    BlogComponent,
+    FooterComponent,
+    ScrollUpComponent,
+    MobileFooterComponent
   ],
   exports: [
     LandingPageComponent
